@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meine Zugzentrale</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="train.js"></script>
+</head>
+<body>
+	<div class="categoryname">
+		<h2>Züge</h2>
+	</div>
+	<div class="gridwrap">
+		<div class="evencolumn">
+			<img src="imgs/lok1.png" alt="lok1" width="150" class="bleimg" id="imgTrain1" /><br><br>
+			<input type="range" min="-100" max="100" value="0" step="10" id="speedTrain1"><br><br>
+			<button type="button" id="stopTrain1">Stop</button><br>
+		</div>
+		<div class="oddcolumn">
+			<img src="imgs/lok2.png" alt="lok2" width="150" class="bleimg" id="imgTrain2" /><br><br>
+			<input type="range" min="-100" max="100" value="0" step="10" id="speedTrain2"><br><br>
+			<button type="button" id="stopTrain2">Stop</button><br>
+		</div>
+	</div>
+	<div class="categoryname">
+		<h2>Weichen</h2>
+	</div>
+	<div class="gridwrap">
+		<div class="evencolumn">
+			<img src="imgs/weichel.png" alt="weiche links" width="150" /><br><br>
+			<div class="toggle">
+				<input type="checkbox" id="chkSwitch1"><label for="chkSwitch1"><br>
+			</div>
+		</div>
+		<div class="oddcolumn">
+			<img src="imgs/weicher.png" alt="weiche rechts" width="150" /><br><br>
+			<div class="toggle">
+				<input type="checkbox" id="chkSwitch2"><label for="chkSwitch2"><br>
+			</div>
+		</div>
+		<div class="evencolumn">
+			<img src="imgs/weichel.png" alt="weiche links" width="150" /><br><br>
+			<div class="toggle">
+				<input type="checkbox" id="chkSwitch3"><label for="chkSwitch3"><br>
+			</div>
+		</div>
+		<div class="oddcolumn">
+			<img src="imgs/weicher.png" alt="weiche rechts" width="150" /><br><br>
+			<div class="toggle">
+				<input type="checkbox" id="chkSwitch4"><label for="chkSwitch4"><br>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
